@@ -1,0 +1,90 @@
+﻿*{
+       margin: 0;
+       padding: 0;
+       font-family: Ariel, "Helvetica neue", Helavatica, sans-serif;
+       -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+       box-sizing: border-box;
+    }
+
+
+.login-box{
+        width: 400px;
+        margin : 100px auto;
+        margin-top: 50px;
+        margin-bottom:  0px;
+        border:5px solid blue;
+        border-radius:25px;
+        background-color:rgba(0,0,0,0.4);
+        box-shadow:10px 10px 5px indigo;
+
+    }
+
+
+.form-box{
+           padding: 25px;
+          }
+
+
+#headerlogin{
+                padding-top:10px ;
+                font-size:40px;
+                color:white;
+                position: absolute important!;
+            }
+
+  @media (max-width: 720px){
+            .login-box{
+                         width: 90%;
+                        
+            }
+        }
+
+
+  .inp{
+         width: 100%;
+         padding: 12px;
+         margin-bottom: 3px;
+         border: none;
+         border-radius: 5px;
+         font-size: 20px;
+         border-bottom: 2px solid #000;
+         color: #dc143c;
+        }
+
+        .inp:focus{
+                    outline: none;
+                    border-bottom: 2px solid #dc143c;
+                    color: #dc143c;
+        }
+
+
+.sub-btn{
+             padding: 12px;
+             width:100%;
+             border-radius: 5px;
+             background-color:green;
+             border: 0;
+             box-sizing: border-box;
+             color: #fff;
+             cursor: pointer;
+             font-size: 20px;
+             border-bottom: 2px solid #000;
+             text-shadow: 1px 1px 1px #000;
+             
+
+    }
+        .sub-btn:hover{
+              background-color:blue;
+        }
+        .sub-btn:focus{
+              outline: none;
+        } 
+
+
+body{
+     background-image:url("21.jpg");
+     background-repeat:no-repeat;
+     background-size:1400px 700px;
+}
+
